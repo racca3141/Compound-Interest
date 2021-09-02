@@ -28,8 +28,7 @@ using namespace std;
 
 double computeFutureValue (double P, double r, int t);
 
-int main()
-{
+int main(){
     double principal, annualRate;
     int timeInYears;
     
@@ -51,6 +50,8 @@ int main()
     
     cout << fixed << setprecision(2);
     cout << "\n\nYour new Principal after " << timeInYears << " year(s) is $" << computeFutureValue(principal, annualRate, timeInYears) << " ." << endl;
+    
+    return 0;
     
   
 }
